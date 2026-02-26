@@ -13,6 +13,7 @@ end
 
 ## Reproduce
 
+### tailwindcss v4.2.0
 ```sh
 chmod +x run.sh && ./run.sh
 ```
@@ -20,6 +21,21 @@ chmod +x run.sh && ./run.sh
 ```
 ---- compile result ---
 w-100 (heredoc)     : not found  # bug: should be found
+w-99 (interpolation): found
+w-98 (plain)        : found
+```
+
+
+### tailwindcss v4.1.16
+```sh
+git fetch
+git checkout v-4-1-16
+chmod +x run.sh && ./run.sh
+```
+
+```
+---- compile result ---
+w-100 (heredoc)     : found
 w-99 (interpolation): found
 w-98 (plain)        : found
 ```
