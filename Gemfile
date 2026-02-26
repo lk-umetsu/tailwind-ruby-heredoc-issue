@@ -1,2 +1,2 @@
 source "https://rubygems.org"
-gem "tailwindcss-ruby", "4.2.0"
+gem "tailwindcss-ruby", "4.1.16"
