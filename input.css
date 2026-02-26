@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@source not "README.md";
+@source not "run.sh";
+@source not "Dockerfile";
+@source not "Gemfile";
+@source not "Gemfile.lock";
+@source not "output.css";
